@@ -1,0 +1,1 @@
+"c:\Program Files (x86)\1cv8\8.3.12.1685\bin\1cv8.exe" DESIGNER /F"e:\1CBase\DemoBUH30" /N"АбрамовГС (директор)"   /DumpExternalDataProcessorOrReportToFiles "E:\Temp\Test_Release\" e:\Work\Test_Release\ViPNetЭДО_3\ViPNet_3.epf

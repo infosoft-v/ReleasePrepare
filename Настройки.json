@@ -1,0 +1,10 @@
+{
+	"oscript_dir": "c:\\Program Files (x86)\\OneScript",
+	"Test_Release": {
+		"Каталоги": {
+			"Проект": "e:\\Work\\Test_Release\\ViPNetЭДО_3",
+			"Релиз": "e:\\Work\\Test_Release",
+			"Исходники": "e:\\Temp"
+		}
+	}
+}
