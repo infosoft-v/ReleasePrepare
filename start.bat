@@ -1,2 +1,1 @@
-chcp 866
-oscript ReleasePrepare.os
+oscript ReleasePrepare.os -cfg config.json -prj Test_Release

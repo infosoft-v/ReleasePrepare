@@ -1,10 +1,16 @@
 {
-    "oscript_dir": "c:\\Program Files (x86)\\OneScript",
+    "Programs": {
+        "v83": "c:\\Program Files (x86)\\1cv8\\8.3.12.1685\\bin\\1cv8.exe"
+    },
     "Test_Release": {
-        "dirs": {
-            "project": "e:\\Work\\Test_Release\\ViPNetР­Р”Рћ_3",
-            "release": "e:\\Work\\Test_Release",
-            "source": "e:\\Temp"
+        "Заказчик": "",
+        "ФайлПроекта": "e:\\Work\\Test_conv\\ViPNet_3.epf",
+        "База1С": "e:\\1CBase\\DemoBUH30",
+        "Пользователь1С": {
+            "Имя": "АбрамовГС (директор)",
+            "Пароль": ""
         }
-    }
+    },
+    "КаталогРелизов": "e:\\Work\\Test_Release\\Releases"
 }
+
