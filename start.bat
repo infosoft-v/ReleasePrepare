@@ -1,1 +1,1 @@
-oscript ReleasePrepare.os -cfg config.json -prj Test_Release
+oscript ReleasePrepare.os  -prj Test_Release -cfg config.json
