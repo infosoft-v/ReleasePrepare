@@ -1,1 +1,0 @@
-ReleasePrepare.exe -cfg config.json -prj Test_Release
