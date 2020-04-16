@@ -24,10 +24,13 @@
 * рефакторит коды модулей согласно указанным правилам
 * получает номер версии обработки
 * формирует наименование файла мастер-обработки с учетом наименования проекта и номера релиза
-* загружает обработанные исходники в мастер-обработку
+* собирает из обработанных исходников файл мастер-обработки
 
 Так как выгрузка и загрузка производится средствами платформы 1С, имеем ввиду - версия этой платформы 8.3.*
-Должны поддерживаться при запуске конфигуратора из командной строки ключи: /DumpExternalDataProcessorOrReportToFiles и /LoadExternalDataProcessorOrReportFromFiles
+Должны поддерживаться при запуске конфигуратора из командной строки ключи:
+
+* /DumpExternalDataProcessorOrReportToFiles
+* /LoadExternalDataProcessorOrReportFromFiles
 
 ## Описание использования
 
@@ -48,7 +51,7 @@ oscript ReleasePrepare.os -prj <АлиасПроекта> -cfg <ФайлНаст
  АлиасПроекта - псевдоним проекта (ключ в файле настроек)
                 Параметр -prj является обязательным
  ФайлНастроек - файл в формате JSON с описанием параметров настроек обработки различных проектов (обработок)
-                Если параметр -cfg опционален. Если его пропустить, будет искаться файл config.json в каатлоге модуля
+                Параметр -cfg опционален. Если его пропустить, будет искаться файл config.json в каталоге модуля
 
 ## Форматы конфигурационных файлов
 
@@ -121,9 +124,9 @@ oscript ReleasePrepare.os -prj <АлиасПроекта> -cfg <ФайлНаст
 
 ## Зависимости
 
-* OneScript https://github.com/EvilBeaver/OneScript
-* json https://github.com/oscript-library/json
-* cmdline https://github.com/oscript-library/cmdline
-* 1commands https://github.com/oscript-library/1commands
-* tempfiles https://github.com/oscript-library/tempfiles
-* logos https://github.com/oscript-library/logos
+* OneScript <https://github.com/EvilBeaver/OneScript>
+* json <https://github.com/oscript-library/json>
+* cmdline <https://github.com/oscript-library/cmdline>
+* 1commands <https://github.com/oscript-library/1commands>
+* tempfiles <https://github.com/oscript-library/tempfiles>
+* logos <https://github.com/oscript-library/logos>
